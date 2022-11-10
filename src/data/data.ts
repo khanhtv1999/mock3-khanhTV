@@ -1,5 +1,11 @@
-import React from "react";
-export const listFeature = [
+interface featureInterface {
+  urlImg: string;
+  heading: string;
+  year: number;
+  describe: string;
+  title: string;
+}
+export const listFeature: Array<featureInterface> = [
   {
     urlImg:
       "https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/313411761_1919083905150271_1423365407566464685_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=FL1DmSVFCA0AX-jZ1I5&_nc_ht=scontent.fhan7-1.fna&oh=00_AfAFeoj9jHffr-W-OmGKhH4MS_y8yGJlU1lZX7-8PvqSbg&oe=636EFFFB",

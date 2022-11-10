@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePageComponent/HomePage";
 import SharedLayout from "./component/SharedLayoutComponent/SharedLayout";
 import BlogPage from "./pages/BlogPageComponent/BlogPage";
 import WorkPage from "./pages/WorkPage/WorkPage";
+import WorkDetailPage from "./pages/WorkDetailPage/WorkDetailPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="work" element={<WorkPage />} />
+          <Route path="contact" element={<WorkDetailPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
